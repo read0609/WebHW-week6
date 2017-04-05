@@ -1,0 +1,146 @@
+body {
+  margin:0px;
+}
+
+header.heading{
+  width:60vw;
+  height:10vh;
+  margin: 5vh auto 0pt auto;
+}
+
+header.heading::after{
+  clear: both;
+}
+
+header.heading button.btn_SendMe{
+  float:left;
+  width:20vw;
+  height: 10vh;
+  box-sizing: border-box;
+  display: flex;
+  align-content: center;
+  justify-content:center;
+  margin: 0pt;
+  padding: 0pt;
+  border: 0.5vh solid #C55A11;
+  background-color: white;
+  font-size: 5vh;
+  font-family: "Segoe UI Light";
+  color:#C55A11;
+}
+
+header.heading .header_right{
+  float:right;
+  width:20vw;
+  height: 10vh;
+  box-sizing: border-box;
+  display: flex;
+  align-content: center;
+  justify-content:center;
+  margin: 0pt;
+  padding: 0pt;
+}
+
+header.heading .header_right button.btn_login{
+  width:8vw;
+  height: 5vh;
+  box-sizing: border-box;
+  display: flex;
+  align-content: center;
+  justify-content:center;
+  margin:2.5vh 2vw 2.5vh 0pt;
+  padding: 0pt;
+  border: 0.5vh solid #C55A11;
+  background-color: white;
+  font-size: 2.5vh;
+  font-family: "Segoe UI Light";
+  color:#C55A11;
+}
+
+header.heading .header_right button.btn_signup{
+  width:8vw;
+  height: 5vh;
+  box-sizing: border-box;
+  display: flex;
+  align-content: center;
+  justify-content:center;
+  margin:2.5vh 0vh 2.5vh 2vw;
+  padding: 0pt;
+  border: 0.5vh solid #C55A11;
+  background-color: white;
+  font-size: 2.5vh;
+  font-family: "Segoe UI Light";
+  color:#C55A11;
+}
+
+.Slideshow{
+  width:75vw;
+  height:50vh;
+  margin:5vh auto 0vh auto;
+}
+
+.Slideshow img{
+  width:75vw;
+  height:50vh;
+  margin:0pt;
+}
+
+article.main {
+  width:60vw;
+  height:70vh;
+  margin: 5vh auto 0vh auto;
+  display: block;
+}
+
+article.main .AboutMe{
+  width:60vw;
+  height:70vh;
+  margin: auto;
+}
+
+article.main .AboutMe .AM_title{
+  width:40vw;
+  height: 10vh;
+  box-sizing: border-box;
+  margin:0pt auto 0 auto;
+  padding: 0pt;
+  border: 1pt solid #C55A11;
+}
+
+article.main .AboutMe .AM_title h2{
+  margin: 0pt;
+  text-align: center;
+  box-sizing: border-box;
+  padding:1vh 0pt 1vh 0pt;
+  font-family: "Segoe UI Light";
+  font-weight: normal;
+  font-size: 5vh;
+  color:#C55A11;
+}
+
+article.main .AboutMe .AM_con{
+  width:60vw;
+  height: 50vh;
+  margin:8vh auto 0 auto;
+}
+
+article.main .AboutMe .AM_con::after{
+  clear:both;
+}
+
+article.main .AboutMe .AM_con img{
+  width:20vw;
+  height:50vh;
+  margin: 0pt 8vh 0pt 0pt;
+  opacity: 0.8;
+  float: left;
+}
+
+article.main .AboutMe .AM_con p.AM_text{
+  width:20vw;
+  height:45vh;
+  margin: 0pt 8vh 0pt 0pt;
+  float: right;
+  font-size: 2.7vh;
+  font-family: "SimSun";
+}
